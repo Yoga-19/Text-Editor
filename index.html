@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<style>
+
+button{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 20px
+ }
+
+button:hover{
+background-color: grey;
+}
+
+#select{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+select{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 10px
+}
+
+#area{
+margin: 100px 0px
+}
+</style>
+
+<body>
+<div id="select">
+<label for="fontname">Font Family </label>
+<select id="fontname" name="fontname">
+</select>
+
+<label for="fontsize">Variant </label>
+<select id="fontsize" name="fontsize" >
+</select>
+<label for="italics" class="toggle"> Italics </label>
+<input type="checkbox" id="italics">
+<span class="slider"></span>
+</div>
+
+<div id="area" >
+<textarea name="message" placeholder="Enter your text here" style="width:1465px; height:300px;">
+</textarea>
+</div>
+
+<div id="buttons">
+	<button type="button" >SAVE</button>
+	<button type="button" >RESET</button>
+</div>
+
+</body>
+</html>
